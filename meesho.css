@@ -1,0 +1,118 @@
+body{
+    font-family: Roboto, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    padding: 15px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.logo{
+    width: 5%;
+    margin-left: 60px;
+    padding-right: 25%;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: white;
+    margin-top: 30px;  
+}
+
+nav, .logo, ul{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    cursor: pointer;
+}
+
+li:hover{
+    color: aqua;
+}
+
+span{
+    background-color: orangered;
+    padding: 10px 35px;
+    border-radius:20px ;
+    font-size: 19px;
+}
+span:hover{
+    background-color: orange;
+}
+.head{
+    width: 100vw;
+    margin-top: 15px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display:flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.mission{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Internet{
+    text-align: center;
+    font-size: 50px;
+}
+
+.sec-img{
+    display: flex;
+    height: 40vh;
+    padding:10px ;
+}
+
+.img-1, .img-2, .img-3{
+    height: 30vh;
+}
+
+.OPERATE{
+    padding: 10px;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.img-4{
+    
+    height: 30vh;
+}
+
+.img-5{
+    height: 50vh;
+}
+
+
+.e-com{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    font-size:50px;
+    margin-left: 20vh;
+}
+footer{
+    margin-left:0lvh;
+    margin-top: 50px;
+    display: flex;
+    background-color: rgba(161, 1, 164, 0.705);
+    unicode-bidi: isolate;
+    align-items: center;
+    height: 70px;
+}
